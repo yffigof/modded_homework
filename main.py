@@ -1,9 +1,5 @@
-print('Я люблю Maximum')
+slovo = str(input()).replace(' ', '')
 
+a = slovo[::-1]
 
-
-a = str(input()).replace(' ', '')
-
-b = a[::-1]
-
-print(a == b)
+print(slovo == a)
