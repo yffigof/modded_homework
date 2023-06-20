@@ -1,5 +1,5 @@
-slovo = str(input()).replace(' ', '')
-
-a = slovo[::-1]
-
-print(slovo == a)
+s = input()
+if s == s[::-1]:
+  print(True)
+else:
+  print(False)
