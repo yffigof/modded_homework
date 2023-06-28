@@ -1,5 +1,3 @@
-def str_pol():
-  slovo = input()
-  print(slovo == slovo[::-1])
+def str_pol(word):
 
-str_pol()
+	return  word== word[::-1
